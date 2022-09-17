@@ -22,4 +22,4 @@
 SELECT
     COUNT(*)
 FROM 
-    data
+    tbl1
