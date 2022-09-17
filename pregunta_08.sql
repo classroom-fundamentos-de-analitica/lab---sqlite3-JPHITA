@@ -44,7 +44,7 @@
 
 SELECT
 	strftime('%Y', c23),
-	AVG(c21)
+	avg(c21)
 FROM
 	tbl2
 GROUP BY
