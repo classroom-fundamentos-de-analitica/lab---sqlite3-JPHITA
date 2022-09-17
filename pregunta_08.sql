@@ -43,9 +43,9 @@
 --
 
 SELECT
-	strftime('%Y', c23) AS YEAR,
+	strftime('%Y', c23),
 	AVG(c21)
 FROM
 	tbl2
 GROUP BY
-	YEAR
+	strftime('%Y', c23)

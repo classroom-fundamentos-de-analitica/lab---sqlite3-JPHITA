@@ -40,9 +40,8 @@
 -- 
 
 SELECT
-	strftime('%Y', c14) AS YEAR,
     COUNT(*)
 FROM
 	tbl1
 WHERE
-	YEAR = '2018'
+	strftime('%Y', c14)
